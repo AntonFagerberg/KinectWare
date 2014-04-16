@@ -2,22 +2,19 @@
 using System.Collections;
 
 public class ArkBall : MonoBehaviour {
-	
-	public int speed;
-	
 	private Vector3 direction;
 	private Vector3 bounceNormal;
 	private float speedMultiplier;
 	
 	void Start () {
 		transform.position = new Vector3(0f, 0f, 0f);
-		direction = new Vector3(0.1f, -1f, 0f).normalized;
+		direction = new Vector3(0.0f, -1f, 0f).normalized;
 		speedMultiplier = 0.1f;
 	}
 	
 	void Update () {
 		transform.rotation = Quaternion.identity;
-		transform.position += direction * speedMultiplier * speed;
+		transform.position += direction * speedMultiplier;
 		transform.position = new Vector3(transform.position.x, transform.position.y, 0f);
 
 		if (transform.position.y < -15f) {
