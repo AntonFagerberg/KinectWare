@@ -16,7 +16,7 @@ public class MonkeyBallBlockEnemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		x = (x + 0.05f) % (2 * Mathf.PI);
+		x = (x + 0.025f) % (2 * Mathf.PI);
 		transform.position = position + movement * Mathf.Sin(x) * (negate ? -1f : 1f);
 
 	}
