@@ -7,7 +7,7 @@ public class ArkPaddle : MonoBehaviour {
 	private int rows;
 
 	void Start () {
-		rows = 1 + ((5 - PlayerPrefs.GetInt("Lives") + PlayerPrefs.GetInt("Score")) / (Application.levelCount - 2));
+		rows = 5;
 
 		if (rows > 10) {
 			rows = 10;

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{EC78D432-2422-827B-B169-BB18861AA6AC}</ProjectGuid>
+	<ProjectGuid>{A16CD4A6-72D1-D6DA-7E6B-302AF98866E3}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,18 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BackgroundMusic.js" />
-     <Compile Include="Assets\CarBlock\Scripts\Antiroll_Bar.js" />
-     <Compile Include="Assets\CarBlock\Scripts\PlayerCar.js" />
-     <Compile Include="Assets\CarBlock\Scripts\SimpleVelocityLimiter.js" />
-     <Compile Include="Assets\CarBlock\Scripts\SmoothFollow.js" />
-     <Compile Include="Assets\CarBlock\Scripts\WheelAlignScript.js" />
-     <Compile Include="Assets\GUIButtonTest.js" />
      <Compile Include="Assets\InfoScene\InfoController.js" />
      <Compile Include="Assets\InfoScene\StartScript.js" />
-     <Compile Include="Assets\LookingWithEye.js" />
-     <Compile Include="Assets\fantasySpider\FS_rotateThis.js" />
-     <Compile Include="Assets\followTarget.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
@@ -74,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{E2973A02-FD7C-E58B-A4BB-4E061163DFA4}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{AB1AB162-C229-D7D4-AA2B-68E5B95DD023}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
